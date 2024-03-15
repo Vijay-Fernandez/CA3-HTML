@@ -1,8 +1,12 @@
 /*Styling for banner design text*/
 h1, h2 {
   text-align: center;
+  font-family: 
   }
 
+body {
+  background-color: #4b4b4c;
+}
 
 /* CSS for navigation bar*/
 ul {
@@ -37,6 +41,15 @@ li a:hover:not(.current) {
 
 /*Style for navigation bar to show user what page they are on*/
 .current {
-  background-color: purple;
+  background-color: #060d5c;
   color: white;
+  font-weight: bold;
+}
+
+.banner {
+  background-image: url(https://www.nrscotland.gov.uk/files//research/UCI%20tartan.png);
+  size-adjust: 50%;
+  color: white;
+  margin: 0px;
+  padding: 0px;
 }
