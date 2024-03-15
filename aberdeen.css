@@ -1,0 +1,42 @@
+/*Styling for banner design text*/
+h1, h2 {
+  text-align: center;
+  }
+
+
+/* CSS for navigation bar*/
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: grey;
+}
+
+li {
+  float: left;
+  text-align: center;
+  display: inline;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-family: Helvetica;
+}
+
+
+/*Color change when cursor hovers over link in navigation bar*/
+li a:hover:not(.current) {
+  background-color: black;
+  color: white;
+}
+
+/*Style for navigation bar to show user what page they are on*/
+.current {
+  background-color: purple;
+  color: white;
+}
