@@ -104,3 +104,28 @@ li a:hover:not(.current) {
   background-color:black;
   color: white;
 }
+
+/*Bootstrap for mobile and tablet display*/
+
+/*Portrait phones*/
+@media (max-width: 575.98px) {
+  /*Ensures text is readable to those with poorer eyesight on phones, same logic applied to images*/
+  body {font-size: 30px}
+  h5 {font-size: 35px}
+  img {
+    max-width:110%;
+    max-height:110%;
+    }
+}
+
+/*Tablet*/
+@media (min-width: 576px) and (max-width: 767.98px) {
+  /*Smaller adjustment to text and images due to bigger screen on tablet*/
+  body {font-size: 25px}
+  h5 {font-size: 30px}
+    img {
+    max-width:105%;
+    max-height:105%;
+    }
+}
+
