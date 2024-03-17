@@ -1,7 +1,7 @@
 /*Styling for banner design text*/
 h1, h2 {
   text-align: center;
-  font-family: 
+  font-family: 'Segoe UI'
   }
 
 body {
@@ -46,6 +46,7 @@ li a:hover:not(.current) {
   font-weight: bold;
 }
 
+/*Banner styles and image applied using styles*/
 .banner {
   background-image: url(https://www.nrscotland.gov.uk/files//research/UCI%20tartan.png);
   size-adjust: 50%;
@@ -65,7 +66,7 @@ li a:hover:not(.current) {
   margin: auto;
 }
 
-
+/*For static map image on the Home page*/
 #map {
   width: 100%;
   max-width: 400px;
@@ -73,4 +74,33 @@ li a:hover:not(.current) {
   border-style: solid;
   border-width: 5px;
   float: right;
+}
+
+/*For 7:5 column ratio on the visit page*/
+.column {
+  box-sizing: border-box;
+  border-radius: 5px;
+  padding: 1%;
+  margin: 0 0 2%;
+  background-color: grey;
+  grid-column: 7 / 5;
+}
+
+.left {
+  width: 56%;
+  float: left;
+}
+
+.right {
+  width: 43%;
+  float: right;
+}
+
+.rightbox {
+  float:right;
+}
+
+.link {
+  background-color:black;
+  color: white;
 }

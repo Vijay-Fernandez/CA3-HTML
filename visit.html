@@ -2,12 +2,21 @@
 <html>
   <head>
     <title>History of Aberdeen</title>
+
+    <!--Setting up bootstrap functionality-->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     <link rel="stylesheet" type="text/css" href="aberdeen.css">
   </head>
 
 <!-- History page of Aberdeern tourism website -->
 
 <body>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+
 
 <div class = "banner">  
   <h1>Aberdeen</h1>
@@ -24,6 +33,83 @@
   <li><a href="history.html">History</a></li>
 </ul>
 
-<p>THIS IS THE VISIT</p>
+<br>
+
+<!--Column for left part of visit page -->
+<div class = "column left">
+<!--Implementation of card groups from bootstrap, one row presents three locations-->
+<div class="card-group">
+  
+  <div class="card">
+    <img class="card-img-top" src="image/duthie_park.jpg" alt="Duthie Park" height="180" width="277">
+    <div class="card-body">
+      <h5 class="card-title">Duthie Park</h5>
+      <p class="card-text">Scotland's third most visited garden! Featuring a number of exotic plants along with family play areas, boating ponds and Victorian design features.</p>
+      <a href="https://www.visitscotland.com/info/see-do/duthie-park-p1421461" class="card-text">Learn more here</a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="card-img-top" src="image/machar.jpg" alt="St Machar's Cathedral" height="180" width = "277">
+    <div class="card-body">
+      <h5 class="card-title">St Machar's Cathedral</h5>
+      <p class="card-text">Continuing to be a place of worship even to this day, the site dates back to the 12th century. Marvel at its architecture and unique heraldic ceiling</p>
+      <a href="https://www.stmachar.com/" class="card-text">Learn more here</a>
+    </div>
+  </div>
+  
+  <div class="card">
+    <img class="card-img-top" src="image/museum.jpg" alt="Card image cap" height="180" width="277">
+    <div class="card-body">
+      <h5 class="card-title">Gordon Highlander's Museum</h5>
+      <p class="card-text">A 5-star attraction that tells you the story of the Gordon Highlanders. Learn through the museum's displays, films and replica creation of a WW1 trench</p>
+      <a href="https://www.gordonhighlanders.com/" class="card-text">Learn more here</a>
+    </div>
+  </div>
+</div>
+
+<br>
+
+<!-- Second set of locations -->
+<div class="card-group">
+  <div class="card">
+    <img class="card-img-top" src="image/belmont_street.jpg" alt="Belmont Street" height="180" width="277">
+    <div class="card-body">
+      <h5 class="card-title">Belmont Street</h5>
+      <p class="card-text">Featuring a variety of bars and restaurants, including The Triplekirks pub.</p>
+      <a href = "https://hiddenscotland.co/listings/belmont-street/" class ="card-text">Learn more here</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="image/art_gallery.jpg" alt="Aberdeen Art Gallery" height="180" width="277">
+    <div class="card-body">
+      <h5 class="card-title">Aberdeen Art Gallery</h5>
+      <p class="card-text">The Aberdeen Art Gallery possesses a collection over 700 years, including a range works by artists and designers.</p>
+      <a href = "https://hiddenscotland.co/listings/belmont-street/" class ="card-text">Learn more here</a>
+    </div>
+  </div>
+  <div class="card">
+    <img class="card-img-top" src="image/theatre.jpg" alt="Card image cap" height="180" width="277">
+    <div class="card-body">
+      <h5 class="card-title">His Majesty's Theatre</h5>
+      <p class="card-text">A theatre located in the heart of Aberdeen. Come and watch musicals, plays, opera and more!</p>
+      <a href="https://www.aberdeenperformingarts.com/his-majestys-theatre/" class ="card-text">Learn more here</a>
+    </div>
+  </div>
+</div>
+</div>
+
+<!--Right column of visit page, features a small paragraph as an introduction to the page, then links other websites to the user-->
+<div class = "column right">
+  <p>Aberdeen has a number of locations to visit and experience! Maybe you're looking for a tour? Perhaps a visit to one of the museums or the winter gardens? Aberdeen has it all!</p>
+  <p>Do these locations not suit you? Here are some websites that feature other potential interests for you!:</p>
+  <a href="https://www.visitabdn.com/" class ="link">Visit ABDN</a>
+  <br>
+  <a href="https://www.visitscotland.com/places-to-go/aberdeen-city-shire" class = "link">Visit Scotland</a>
+  <br>
+  <a href="https://www.tripadvisor.co.uk/Attractions-g186487-Activities-Aberdeen_Aberdeenshire_Scotland.html" class ="link">Tripadvisor
+</div>
+
+
 </body>
 </html>
