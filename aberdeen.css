@@ -1,5 +1,5 @@
 /*Styling for banner design text*/
-h1, h2 {
+.bannertext {
   text-align: center;
   font-family: 'Segoe UI'
   }
@@ -67,7 +67,7 @@ li a:hover:not(.current) {
 }
 
 /*For static map image on the Home page*/
-#map {
+.image_positioning {
   width: 100%;
   max-width: 400px;
   height: auto;
